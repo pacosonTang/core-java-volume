@@ -4,9 +4,11 @@ import java.sql.Date;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.NavigableMap;
 import java.util.NavigableSet;
 import java.util.Set;
@@ -20,6 +22,31 @@ import static java.lang.System.*;
 public class ViewAndWrapper
 {
 	public static void main(String[] args)
+	{
+		String[] alpha = new String[]{"B", "A", "D", "G", "C"};
+		List<String> list = Arrays.asList(alpha);
+		
+		Set set = new HashSet(list);
+		NavigableSet<String> nSet = new TreeSet<>(set);
+		SortedSet<String> subNSet = nSet.subSet("A", true , "C", true);//String 大于等于"A"小于等于"C"(true)
+		out.println();
+		for (String str : subNSet) // print sub list
+			out.print(str + " ");
+		
+		Map<Integer, String> map = new HashMap();
+		map.put(1, "A");
+		map.put(2, "B");
+		map.put(3, "C");
+		NavigableMap<Integer, String> nMap = new TreeMap<>(map);
+		SortedMap<Integer, String> subNMap = nMap.subMap(1, true, 2, true); //键值大于等于 1 小于等于 2
+		out.println();
+		for (String str : subNMap.values()) // sub map's value
+			out.print(str + " ");
+
+		
+	}
+	
+	public static void main6(String[] args)
 	{
 		String[] alpha = new String[]{"B", "A", "D", "G", "C"};
 		List<String> list = Arrays.asList(alpha);
