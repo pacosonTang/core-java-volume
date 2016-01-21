@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:"http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.xiaotangtang.com" 
+	xmlns="http://www.xiaotangtang.com" 
+	elementFormDefault="qualified">
+	
+	<xsd:elment name="font">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="name" type="xsd:string" />
+				<xsd:element name="size" type="xsd:string">
+					<xsd:attribute name="unit" type="xsd:string" />
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:elment>
+</xsd:schema>
