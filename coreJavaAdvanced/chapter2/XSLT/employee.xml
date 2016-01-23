@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employees>
+    <employee>
+        <name>Pankaj</name>
+        <salary>Male</salary>
+        <hiredate>
+        	<year>1990</year>
+        	<month>1</month>
+        	<day>1</day>
+        </hiredate>
+    </employee>
+    <employee>
+        <name>xiao</name>
+        <salary>female</salary>
+        <hiredate>
+        	<year>1999</year>
+        	<month>9</month>
+        	<day>9</day>
+        </hiredate>
+    </employee>
+</Employees>
