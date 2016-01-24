@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<font 
+	xmlns="http://www.xiaotangtang.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:xsi:schemaLocation="http://www.xiaotangtang.com myfont.xsd"
+	name="ab" size="36 pt">
+    <name>abcdefg</name>
+    <size unit="pt">36</size>
+</font>
