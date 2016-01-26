@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book>
+    <title lang="eng">Harry Potter</title>
+    <price>29.99</price>
+  </book>
+  <book>
+    <title lang="chinese">Learning XML</title>
+    <price>39.95</price>
+  </book>
+  <magzine>
+  	<title>1st magzine</title>
+  	<price>1.0</price>
+  </magzine>
+  <magzine>
+  	<title>2nd magzine</title>
+  	<price>2.0</price>
+  </magzine>
+</bookstore>
