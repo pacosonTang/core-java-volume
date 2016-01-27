@@ -1,0 +1,7 @@
+<!ELEMENT font (name,size)>
+<!ATTLIST font name CDATA #REQUIRED>
+<!ATTLIST font size CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ATTLIST size unit CDATA #REQUIRED>
