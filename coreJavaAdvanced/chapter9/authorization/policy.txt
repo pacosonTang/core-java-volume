@@ -1,0 +1,12 @@
+grant codebase "file:./*" 
+{  
+  permission javax.security.auth.AuthPermission "createLoginContext";  
+  permission javax.security.auth.AuthPermission "modifyPrincipals";  
+  permission javax.security.auth.AuthPermission "doAsPrivileged";  
+};  
+  
+  
+grant codebase "file:./*", Principal ExamplePrincipal "SunnyDay" 
+{  
+   permission java.io.FilePermission "com/corejava/chapter9/authorization/test.txt", "read";  
+};  
